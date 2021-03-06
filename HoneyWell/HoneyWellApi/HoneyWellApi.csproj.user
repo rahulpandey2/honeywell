@@ -5,5 +5,6 @@
   </PropertyGroup>
   <PropertyGroup>
     <ActiveDebugProfile>HoneyWellApi</ActiveDebugProfile>
+    <NameOfLastUsedPublishProfile>honeywelltest - Web Deploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

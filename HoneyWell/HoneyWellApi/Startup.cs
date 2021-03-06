@@ -61,7 +61,7 @@ namespace HoneyWellApi
         {
             app.UseSwagger();
 
-            if (env.IsDevelopment())
+            //if (env.IsDevelopment())
             {
                 app.UseSwaggerUI(c =>
                 {
@@ -69,14 +69,6 @@ namespace HoneyWellApi
 
                 });
                 app.UseDeveloperExceptionPage();
-            }
-            else
-            {
-                app.UseSwaggerUI(c =>
-                {
-                    c.SwaggerEndpoint("abcApi/swagger/v1/swagger.json", "API");
-
-                });
             }
             app.UseCors("AllowAll");
 

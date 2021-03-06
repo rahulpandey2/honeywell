@@ -49,7 +49,7 @@ namespace IncidentTrackerRepo
         {
             using (Context context = GetNewContext())
             {
-                context.IncidentTracker.Add(incidentTracker);
+                context.IncidentTracker.Update(incidentTracker);
                 context.SaveChanges();
                 return context.IncidentTracker.FirstOrDefault(x => x.IncidentTrackerId == incidentTracker.IncidentTrackerId);
             }
