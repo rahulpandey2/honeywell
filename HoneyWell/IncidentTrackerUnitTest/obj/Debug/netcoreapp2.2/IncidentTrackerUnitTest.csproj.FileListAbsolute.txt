@@ -15,3 +15,10 @@ C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerUnitTest
 C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerUnitTest\obj\Debug\netcoreapp2.2\IncidentTrackerUnitTest.dll
 C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerUnitTest\obj\Debug\netcoreapp2.2\IncidentTrackerUnitTest.pdb
 C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerUnitTest\obj\Debug\netcoreapp2.2\IncidentTrackerUnitTest.genruntimeconfig.cache
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerUnitTest\bin\Debug\netcoreapp2.2\IncidentTrackerModal.dll
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerUnitTest\bin\Debug\netcoreapp2.2\IncidentTrackerRepo.dll
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerUnitTest\bin\Debug\netcoreapp2.2\IncidentTrackerService.dll
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerUnitTest\bin\Debug\netcoreapp2.2\IncidentTrackerModal.pdb
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerUnitTest\bin\Debug\netcoreapp2.2\IncidentTrackerRepo.pdb
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerUnitTest\bin\Debug\netcoreapp2.2\IncidentTrackerService.pdb
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerUnitTest\obj\Debug\netcoreapp2.2\IncidentTrackerUnitTest.csproj.CopyComplete
