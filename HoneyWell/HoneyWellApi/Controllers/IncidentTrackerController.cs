@@ -23,43 +23,80 @@ namespace HoneyWell.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return new JsonResult(_service.GetIncidentTrackers(), new JsonSerializerSettings { Formatting = Formatting.Indented }) { StatusCode = StatusCodes.Status200OK };
+            try
+            {
+                return new JsonResult(_service.GetIncidentTrackers(), new JsonSerializerSettings { Formatting = Formatting.Indented }) { StatusCode = StatusCodes.Status200OK };
+            }
+            catch (Exception e)
+            {
+                return new JsonResult(e.InnerException, new JsonSerializerSettings { Formatting = Formatting.Indented }) { StatusCode = StatusCodes.Status500InternalServerError };
+            }
         }
 
-       
+
         [HttpGet("{incidentTrackerId}")]
         public IActionResult Get(int incidentTrackerId)
         {
-            return new JsonResult(_service.GetIncident(incidentTrackerId),
+            try
+            {
+                return new JsonResult(_service.GetIncident(incidentTrackerId),
                 new JsonSerializerSettings { Formatting = Formatting.Indented })
-            { StatusCode = StatusCodes.Status200OK };
+                { StatusCode = StatusCodes.Status200OK };
+            }
+            catch (Exception e)
+            {
+                return new JsonResult(e.InnerException, new JsonSerializerSettings { Formatting = Formatting.Indented }) { StatusCode = StatusCodes.Status500InternalServerError };
+            }
         }
 
         [HttpPost]
         public IActionResult Post([FromBody] IncidentTracker incidentTracker)
         {
-            if (incidentTracker != null && !string.IsNullOrEmpty(incidentTracker.IncidentId))
+            try
             {
-                return new JsonResult(_service.Create(incidentTracker),
-                new JsonSerializerSettings { Formatting = Formatting.Indented })
-                { StatusCode = StatusCodes.Status200OK };
+                if (incidentTracker != null && !string.IsNullOrEmpty(incidentTracker.IncidentId))
+                {
+                    return new JsonResult(_service.Create(incidentTracker),
+                    new JsonSerializerSettings { Formatting = Formatting.Indented })
+                    { StatusCode = StatusCodes.Status200OK };
+                }
+                return new JsonResult("incidentId is required", new JsonSerializerSettings { Formatting = Formatting.Indented }) { StatusCode = StatusCodes.Status400BadRequest };
             }
-            return new JsonResult("Product Name is required", new JsonSerializerSettings { Formatting = Formatting.Indented }) { StatusCode = StatusCodes.Status400BadRequest };
+            catch (Exception e)
+            {
+                return new JsonResult(e.InnerException, new JsonSerializerSettings { Formatting = Formatting.Indented }) { StatusCode = StatusCodes.Status500InternalServerError };
+            }
+
         }
         [HttpPut("{incidentTrackerId}")]
         public IActionResult Put(int incidentTrackerId, [FromBody] IncidentTracker incidentTracker)
         {
-            if (incidentTracker != null && incidentTrackerId > 0)
-                incidentTracker.IncidentTrackerId = incidentTrackerId;
+            try
+            {
+                if (incidentTracker != null && incidentTrackerId > 0)
+                    incidentTracker.IncidentTrackerId = incidentTrackerId;
 
-            return new JsonResult(_service.Update(incidentTracker),
-                  new JsonSerializerSettings { Formatting = Formatting.Indented })
-            { StatusCode = StatusCodes.Status200OK };
+                return new JsonResult(_service.Update(incidentTracker),
+                      new JsonSerializerSettings { Formatting = Formatting.Indented })
+                { StatusCode = StatusCodes.Status200OK };
+            }
+            catch (Exception e)
+            {
+                return new JsonResult(e.InnerException, new JsonSerializerSettings { Formatting = Formatting.Indented }) { StatusCode = StatusCodes.Status500InternalServerError };
+            }
         }
         [HttpDelete("{incidentTrackerId}")]
         public void Delete(int incidentTrackerId)
         {
-            _service.Delete(incidentTrackerId);
+            try
+            {
+                _service.Delete(incidentTrackerId);
+            }
+
+            catch (Exception e)
+            {
+                throw new Exception(e.ToString());
+            }
         }
     }
 }
