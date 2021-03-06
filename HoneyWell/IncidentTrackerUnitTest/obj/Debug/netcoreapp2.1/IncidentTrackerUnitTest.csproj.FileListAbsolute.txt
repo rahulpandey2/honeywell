@@ -1,0 +1,17 @@
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerUnitTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerUnitTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerUnitTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerUnitTest\bin\Debug\netcoreapp2.1\testhost.exe
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerUnitTest\bin\Debug\netcoreapp2.1\testhost.dll
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerUnitTest\bin\Debug\netcoreapp2.1\IncidentTrackerUnitTest.deps.json
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerUnitTest\bin\Debug\netcoreapp2.1\IncidentTrackerUnitTest.runtimeconfig.json
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerUnitTest\bin\Debug\netcoreapp2.1\IncidentTrackerUnitTest.runtimeconfig.dev.json
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerUnitTest\bin\Debug\netcoreapp2.1\IncidentTrackerUnitTest.dll
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerUnitTest\bin\Debug\netcoreapp2.1\IncidentTrackerUnitTest.pdb
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerUnitTest\obj\Debug\netcoreapp2.1\IncidentTrackerUnitTest.csprojAssemblyReference.cache
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerUnitTest\obj\Debug\netcoreapp2.1\IncidentTrackerUnitTest.AssemblyInfoInputs.cache
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerUnitTest\obj\Debug\netcoreapp2.1\IncidentTrackerUnitTest.AssemblyInfo.cs
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerUnitTest\obj\Debug\netcoreapp2.1\IncidentTrackerUnitTest.csproj.CoreCompileInputs.cache
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerUnitTest\obj\Debug\netcoreapp2.1\IncidentTrackerUnitTest.dll
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerUnitTest\obj\Debug\netcoreapp2.1\IncidentTrackerUnitTest.pdb
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerUnitTest\obj\Debug\netcoreapp2.1\IncidentTrackerUnitTest.genruntimeconfig.cache

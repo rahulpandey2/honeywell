@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncidentTrackerService", "IncidentTrackerService\IncidentTrackerService.csproj", "{D7F59213-AC5D-4C57-B430-9B3A28447B51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncidentTrackerRepo", "IncidentTrackerRepo\IncidentTrackerRepo.csproj", "{1ECE2ED8-E26D-4EEC-B8A5-14A0AD7ABA1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncidentTrackerUnitTest", "IncidentTrackerUnitTest\IncidentTrackerUnitTest.csproj", "{0FB86AAF-198A-4A2F-B421-5F69DC13528C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncidentTrackerModal", "IncidentTrackerModal\IncidentTrackerModal.csproj", "{92357978-21C9-4EFB-AA6D-C458BBC3D277}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoneyWellApi", "HoneyWellApi\HoneyWellApi.csproj", "{4793940E-77B3-4EEF-B77D-CA492279390A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7F59213-AC5D-4C57-B430-9B3A28447B51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7F59213-AC5D-4C57-B430-9B3A28447B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7F59213-AC5D-4C57-B430-9B3A28447B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7F59213-AC5D-4C57-B430-9B3A28447B51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ECE2ED8-E26D-4EEC-B8A5-14A0AD7ABA1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ECE2ED8-E26D-4EEC-B8A5-14A0AD7ABA1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ECE2ED8-E26D-4EEC-B8A5-14A0AD7ABA1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ECE2ED8-E26D-4EEC-B8A5-14A0AD7ABA1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FB86AAF-198A-4A2F-B421-5F69DC13528C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FB86AAF-198A-4A2F-B421-5F69DC13528C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FB86AAF-198A-4A2F-B421-5F69DC13528C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FB86AAF-198A-4A2F-B421-5F69DC13528C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92357978-21C9-4EFB-AA6D-C458BBC3D277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92357978-21C9-4EFB-AA6D-C458BBC3D277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92357978-21C9-4EFB-AA6D-C458BBC3D277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92357978-21C9-4EFB-AA6D-C458BBC3D277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4793940E-77B3-4EEF-B77D-CA492279390A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4793940E-77B3-4EEF-B77D-CA492279390A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4793940E-77B3-4EEF-B77D-CA492279390A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4793940E-77B3-4EEF-B77D-CA492279390A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {331D6414-4DE6-4B60-8E34-CE7A0C60B3C6}
+	EndGlobalSection
+EndGlobal

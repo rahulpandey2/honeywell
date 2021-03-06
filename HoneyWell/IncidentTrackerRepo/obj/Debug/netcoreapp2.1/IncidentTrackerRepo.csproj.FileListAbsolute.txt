@@ -1,0 +1,12 @@
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerRepo\bin\Debug\netcoreapp2.1\IncidentTrackerRepo.deps.json
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerRepo\bin\Debug\netcoreapp2.1\IncidentTrackerRepo.dll
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerRepo\bin\Debug\netcoreapp2.1\IncidentTrackerRepo.pdb
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerRepo\bin\Debug\netcoreapp2.1\IncidentTrackerModal.dll
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerRepo\bin\Debug\netcoreapp2.1\IncidentTrackerModal.pdb
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerRepo\obj\Debug\netcoreapp2.1\IncidentTrackerRepo.csprojAssemblyReference.cache
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerRepo\obj\Debug\netcoreapp2.1\IncidentTrackerRepo.AssemblyInfoInputs.cache
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerRepo\obj\Debug\netcoreapp2.1\IncidentTrackerRepo.AssemblyInfo.cs
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerRepo\obj\Debug\netcoreapp2.1\IncidentTrackerRepo.csproj.CoreCompileInputs.cache
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerRepo\obj\Debug\netcoreapp2.1\IncidentTrackerRepo.csproj.CopyComplete
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerRepo\obj\Debug\netcoreapp2.1\IncidentTrackerRepo.dll
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerRepo\obj\Debug\netcoreapp2.1\IncidentTrackerRepo.pdb
