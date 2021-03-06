@@ -56,6 +56,27 @@ namespace Service.test
             Assert.IsNull(incidentTracker1);
 
         }
-      
+        [TestMethod]
+        public void UpdateIncident()
+        {
+            IService service = serviceProvider.GetService<IService>();
+            IncidentTracker incidentTracker = service.Create(new IncidentTracker()
+            {
+                IncidentId = Helper.GenerateName(10),
+                CreateAt = DateTime.Now,
+                Severity = Severity.High,
+                Status = Status.Completed,
+                Description = $"Created by Unit Test {Helper.GenerateName(30)}"
+            });
+
+            IncidentTracker incidentTracker1 = service.GetIncident(incidentTracker.IncidentTrackerId);
+            incidentTracker1.Status = Status.Failed;
+            incidentTracker1.Severity = Severity.Low;
+            service.Update(incidentTracker1);
+            IncidentTracker incidentTracker2 = service.GetIncident(incidentTracker.IncidentTrackerId);
+            Assert.AreEqual(incidentTracker2.Status, incidentTracker1.Status);
+            Assert.AreEqual(incidentTracker2.Severity, incidentTracker1.Severity);
+        }
     }
+
 }
