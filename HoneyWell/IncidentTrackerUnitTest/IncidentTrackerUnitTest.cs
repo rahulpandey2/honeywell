@@ -31,8 +31,8 @@ namespace Service.test
                 CreateAt = DateTime.Now,
                 Severity = Severity.High,
                 Status = Status.Completed,
-                Description = Helper.GenerateName(30)
-            });
+                Description = $"Created by Unit Test {Helper.GenerateName(30)}"
+            }); ;
             ;
             //assert
             Assert.IsTrue(incidentTracker.IncidentTrackerId > 0);
@@ -47,7 +47,7 @@ namespace Service.test
                 CreateAt = DateTime.Now,
                 Severity = Severity.High,
                 Status = Status.Completed,
-                Description = Helper.GenerateName(30)
+                Description = $"Created by Unit Test {Helper.GenerateName(30)}"
             });
 
 

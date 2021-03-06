@@ -22,3 +22,4 @@ C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerUnitTest
 C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerUnitTest\bin\Debug\netcoreapp2.2\IncidentTrackerRepo.pdb
 C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerUnitTest\bin\Debug\netcoreapp2.2\IncidentTrackerService.pdb
 C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerUnitTest\obj\Debug\netcoreapp2.2\IncidentTrackerUnitTest.csproj.CopyComplete
+C:\Users\rahul.r.pandey\Source\Repos\honeywell\HoneyWell\IncidentTrackerUnitTest\bin\Debug\netcoreapp2.2\appsettings.json
